@@ -13,6 +13,6 @@ compile step: make & skyeye -e rtos
 
 debug: skyeye -e rtos -d
     
-       ./gdb rtos & target remote :12345 & c
+       ./arm-linux-gdb rtos & target remote :12345 & c
 
 
