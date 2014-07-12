@@ -23,4 +23,4 @@ rtos:$(OBJS)
 	$(OBJCOPY) -O binary $@ rtos.bin
 
 clean:
-	rm *.o rtos rtos.bin -f
+	rm *.o rtos rtos.bin rtos.txt -f
